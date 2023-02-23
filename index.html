@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Catamaran:wght@600&family=Manrope:wght@300;400;600&family=Nunito&family=Open+Sans:wght@400;600&family=Poppins:ital,wght@0,500;1,700&family=Roboto+Slab&family=Roboto:wght@300;400;700&family=Titillium+Web:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<div class="nav-locs">
+    <nav class="navbar navbar-expand-lg bg-black pt-4 pb-4 ">
+        <div class="container">
+                        <a class="navbar-brand" href="#"><img src="imgs/logo.png" alt="Weather" ></a>
+            <div class="logo-type">
+                <h1 class="site-title text-white">Weather</h1>
+                <small class="site-description ">tagline goes here</small>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav   mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active rounded-pill" aria-current="page" href="#" id="first-active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Live Cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ser">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+</div>
+    
+    
+    <section class="container-fluid sec2">
+        <div class="search-city container">
+<form id="input" class="position-relative">
+    <input type="text" class="form-control rounded-pill border border-0  " id ="cityinput" placeholder="Find your location"
+        aria-label="Recipient's username" aria-describedby="button-addon2"  >
+    
+    <input type="submit" value="Find"  id="add" onclick="addlink()""
+        class="  buttonn btn bg-primary text-white rounded-pill border border-0 bbtn position-absolute">
+</form>
+ <div class="card-sec">
+    <div class="row row-cols-1 row-cols-md-3  mt-5 border border-0" id="Row">
+        
+                
+                <div class="card-body" >
+                    <h5 id="city"></h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            
+        <div class="col">
+            <div class="card">
+                <div class="card-header " id="nexyday">
+                   
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-header" id="nextnextdayy">
+                  
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+</div>
+    </section>
+
+    <footer >
+        <div class="container">
+        <div class=" row">
+            <div class="item1  col-md-8">
+<div class="input-group mb-3">
+    <input type="text" class="form-control rounded-pill border border-0 position-relative" placeholder="Enter your email to subscribe..." aria-label="Recipient's username"
+        aria-describedby="button-addon2">
+    <button class="btn bg-primary text-white rounded-pill border border-0 bbtn position-absolute" type="button" id="button-addon2">Subscribe</button>
+</div>
+            </div>
+            <div class="icons col-md-3 offset-md-1">
+               <i class="fab fa-facebook-f"></i>
+               <i class="fab fa-twitter"></i>
+               <i class="fab fa-google-plus-g"></i>
+               <i class="fab fa-pinterest-p"></i>
+
+
+            </div>
+        </div>
+        <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+   
+<script src="index.js"></script>
+</body>
+</html>
+
+  
